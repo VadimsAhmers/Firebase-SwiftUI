@@ -24,7 +24,7 @@ struct SignIn : View {
     
     var body : some View{
         VStack {
-             Text("Sign In").fontWeight(.heavy).font(.largeTitle).padding([.top,.bottom], 20)
+            Text("Sign In").fontWeight(.heavy).font(.largeTitle).padding([.top,.bottom], 20)
             VStack{
                 
                 VStack(alignment: .leading){
@@ -56,9 +56,9 @@ struct SignIn : View {
                         
                         Divider()
                     }
-                      
+                    
                 }.padding(.horizontal, 6)
-             
+                
             }.padding()
             VStack{
                 
@@ -70,8 +70,8 @@ struct SignIn : View {
                     
                     
                 }.background(Color("color"))
-                    .clipShape(Capsule())
-                    .padding(.top, 45)
+                .clipShape(Capsule())
+                .padding(.top, 45)
                 
                 Text("(or)").foregroundColor(Color.gray.opacity(0.5)).padding(.top,30)
                 
